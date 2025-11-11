@@ -1,0 +1,35 @@
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray: hsl(0, 0%, 42%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+.container {
+    box-shadow: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    /* it is centered becoz of justify-contnent and align-items set to center */
+    width: 200px;
+    height: 400px;
+}
+
+.tag {
+    border-radius: 6px;
+    color: black;
+    background-color: var(--Yellow);
+    padding: 5px;
+}
+
+.content {
+    color: var(--Gray);
+}

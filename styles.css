@@ -79,7 +79,6 @@ img {
 
 .author {
     /* does 'display' property not work on images? */
-    
     color: var(--Black);
     font-weight: 600;
     font-size: small;
@@ -89,6 +88,11 @@ img {
     bottom: 40px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
 
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

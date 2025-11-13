@@ -30,7 +30,7 @@ img {
 .card {
     /* it is centered becoz of justify-contnent and align-items set to center */
     width: 350px;
-    height: 450px;
+    height: 475px;
     border: 1px var(--Black) solid;
     box-shadow: 8px 8px var(--Black); /* right, bottom, blur */ /* check out drop-shadow */
     border-radius: 10px;
